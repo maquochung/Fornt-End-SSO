@@ -1,0 +1,25 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 80%;
+    margin-top: 50px;
+    background-color: #CCCCCC;
+}
+.Nav-list{
+    display: block;
+    position: relative;
+    align-items: center;
+    height: 80px;
+    background: #FFFFCC;
+}
+.Nav-list ul{
+    list-style: none;
+    text-align: center;
+    padding-right: 20px;
+    /* background-color: black; 
+}
+*/

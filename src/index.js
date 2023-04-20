@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import store from './Store/Store';
 import reportWebVitals from './reportWebVitals';
-import LoginForm from './Pages/formlogin/login';
-
+import LoginForm from './Components/formlogin/login';
+import { Provider } from 'react-redux';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LoginForm />
+    <Provider store={store}>
+      <LoginForm />
+    </Provider>
   </React.StrictMode>
 );
 
